@@ -263,10 +263,10 @@ class GlobalState {
   }
 
   void showNotifier(String text, {MessageActionState? actionState}) {
-    if (text.isEmpty) {
-      return;
-    }
-    navigatorKey.currentContext?.showNotifier(text, actionState: actionState);
+//    if (text.isEmpty) {
+//      return;
+//    }
+//    navigatorKey.currentContext?.showNotifier(text, actionState: actionState);
   }
 
   Future<void> openUrl(String url) async {
