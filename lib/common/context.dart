@@ -10,10 +10,10 @@ extension BuildContextExtension on BuildContext {
   }
 
   void showNotifier(String text, {MessageActionState? actionState}) {
-    return findAncestorStateOfType<StatusManagerState>()?.message(
-      text,
-      actionState: actionState,
-    );
+    // return findAncestorStateOfType<StatusManagerState>()?.message(
+    //  text,
+    //  actionState: actionState,
+    //  );
   }
 
   void showSnackBar(String message, {SnackBarAction? action}) {
